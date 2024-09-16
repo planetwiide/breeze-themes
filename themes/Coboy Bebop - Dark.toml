@@ -1,0 +1,38 @@
+[info]
+name = "Cowboy Bebop Dark"
+author = "plaNETwide"
+
+[default]
+accent = [0, 102, 255]  # Bebop blue
+layer-zero = [20, 20, 20]  # Very dark gray
+layer-one = [40, 40, 40]  # Dark gray
+text-foreground = [255, 255, 255]  # White
+
+[panel]
+menu = "default.layer-zero"
+border = [0, 102, 255]  # Bebop blue
+separator = [40, 40, 40]
+
+[module]
+background = "default.layer-one::darker"
+text = "default.text-foreground"
+text-hovered = "default.text-foreground"
+description = "default.text-foreground"
+description-hovered = "default.text-foreground"
+
+[button]
+background = "default.layer-one"
+background-hovered = "default.accent::darker"
+text = [255, 255, 255]
+text-hovered = "default.text-foreground"
+
+[tooltip]
+background = "default.layer-zero"
+
+[hud]
+text-color = [0, 102, 255]  # Bebop blue
+text-animation = "static"
+text-glow = false
+background-color = [20, 20, 20, 150]
+background-blur = true
+background-blur-strength = 5

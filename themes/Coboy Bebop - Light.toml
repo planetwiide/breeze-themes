@@ -1,0 +1,41 @@
+[info]
+name = "Cowboy Bebop Light"
+author = "plaNETwide"
+
+[default]
+accent = [255, 165, 0]  # Vibrant orange
+layer-zero = [240, 240, 240]  # Light gray
+layer-one = [255, 255, 255]  # White
+text-foreground = [30, 30, 30]  # Dark gray
+text-background = [150, 150, 150]  # Medium gray
+
+[panel]
+menu = "default.layer-zero"
+border = [255, 165, 0]  # Vibrant orange
+separator = [150, 150, 150]
+
+[module]
+background = "default.layer-one"
+text = "default.text-foreground"
+text-hovered = "default.text-foreground"
+description = "default.text-background"
+description-hovered = "default.text-foreground"
+enabled-background = "default.layer-one::darker"
+
+[button]
+background = "default.layer-one"
+background-hovered = "default.accent::darker"
+text = "default.text-foreground"
+text-hovered = "default.text-background"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = [255, 165, 0]  # Vibrant orange
+text-animation = "pulse"
+text-animation-speed = 1.5
+text-animation-step = 0.7
+text-glow = true
+background-color = [255, 255, 255, 150]  # Light translucent
+background-blur = false

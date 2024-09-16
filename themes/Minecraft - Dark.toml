@@ -1,0 +1,32 @@
+[info]
+name = "Minecraft Dark"
+author = "plaNETwide"
+
+[default]
+accent = [85, 130, 30]  # Minecraft Grass Green
+layer-zero = [0, 0, 0]
+layer-one = [20, 20, 20]
+text-foreground = [255, 255, 255]
+text-background = [50, 50, 50]
+
+[panel]
+menu = [0, 0, 0]
+border = [85, 130, 30]
+separator = [85, 130, 30]
+
+[module]
+enabled-background = "default.layer-one::darker"
+
+[button]
+background-hovered = "default.accent::darker;20"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+background-color = [0, 0, 0, 180]
+background-blur = false
+background-shadow = true
+background-shadow-size = 5
+background-shadow-color = [0, 0, 0, 150]

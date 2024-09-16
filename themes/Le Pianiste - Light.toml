@@ -1,0 +1,48 @@
+[info]
+name = "The Pianist Light"
+author = "plaNETwide"
+
+[default]
+accent = [0, 0, 0]  # Black
+layer-zero = [255, 255, 255]  # White
+layer-one = [220, 220, 220]  # Light gray for slight differentiation
+text-foreground = [0, 0, 0]  # Black
+text-background = [150, 150, 150]  # Medium gray
+
+[panel]
+menu = "default.layer-zero"
+border = [0, 0, 0]  # Black
+separator = [150, 150, 150]  # Medium gray
+
+[module]
+background = "default.layer-one"
+text = "default.text-foreground"
+text-hovered = "default.text-foreground"
+description = "default.text-background"
+description-hovered = "default.text-foreground"
+enabled-background = "default.layer-one::darker"
+
+[button]
+background = "default.layer-one"
+background-hovered = "default.layer-one::darker"
+text = "default.text-foreground"
+text-hovered = "default.text-background"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = [0, 0, 0]  # Black
+text-animation = "pulse"
+text-animation-speed = 1.5
+text-animation-step = 0.5
+text-rainbow-brightness = 1.0  # Full brightness
+text-rainbow-saturation = 0.0  # No saturation (black and white only)
+text-gradient-accent = [255, 255, 255]  # White gradient accent
+text-glow = true
+background-color = [255, 255, 255, 180]  # White translucent
+background-blur = true
+background-blur-strength = 5
+background-shadow = true
+background-shadow-size = 8
+background-shadow-color = [0, 0, 0, 100]

@@ -1,0 +1,32 @@
+[info]
+name = "Dune Light"
+author = "plaNETwide"
+
+[default]
+accent = [255, 184, 28]  # Gold
+layer-zero = [242, 242, 242]
+layer-one = [220, 220, 220]
+text-foreground = [10, 10, 10]
+text-background = [100, 100, 100]
+
+[panel]
+menu = [242, 242, 242]
+border = [200, 200, 200]
+separator = [200, 200, 200]
+
+[module]
+enabled-background = "default.layer-one::brighter"
+
+[button]
+background-hovered = "default.accent::darker;20"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+background-color = [242, 242, 242, 180]
+background-blur = false
+background-shadow = true
+background-shadow-size = 3
+background-shadow-color = [0, 0, 0, 100]

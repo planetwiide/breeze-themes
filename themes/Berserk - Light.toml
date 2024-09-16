@@ -1,0 +1,43 @@
+[info]
+name = "Berserk - Light"
+author = "plaNETwide"
+
+[default]
+accent = [150, 0, 0] # Dark red (reflecting the series' dark tones)
+layer-zero = [240, 240, 240]
+layer-one = [220, 220, 220]
+text-foreground = [20, 20, 20]
+text-background = [180, 180, 180]
+
+[panel]
+menu = "default.layer-zero"
+border = [150, 0, 0]
+separator = [150, 0, 0]
+
+[module]
+enabled-background = "default.layer-one::brighter"
+text = "default.text-foreground"
+text-hovered = [20, 20, 20]
+description = "default.text-background"
+
+[button]
+background = "default.accent"
+background-hovered = "default.accent::darker"
+text = [255, 255, 255]
+text-hovered = [255, 255, 255]
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+text-animation = "pulse"
+text-animation-speed = 2.0
+text-animation-step = 0.6
+text-glow = true
+background-color = [240, 240, 240, 180]
+background-blur = false
+background-blur-strength = 1
+background-shadow = false
+background-shadow-size = 0
+background-shadow-color = [0, 0, 0, 0]

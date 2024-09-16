@@ -1,0 +1,43 @@
+[info]
+name = "Naruto - Light"
+author = "plaNETwide"
+
+[default]
+accent = [255, 165, 0] # Orange (like Naruto's jumpsuit)
+layer-zero = [255, 255, 255]
+layer-one = [240, 240, 240]
+text-foreground = [0, 0, 0]
+text-background = [200, 200, 200]
+
+[panel]
+menu = "default.layer-zero"
+border = [255, 165, 0]
+separator = [255, 165, 0]
+
+[module]
+enabled-background = "default.layer-one::brighter"
+text = "default.text-foreground"
+text-hovered = [0, 0, 0]
+description = "default.text-background"
+
+[button]
+background = "default.accent"
+background-hovered = "default.accent::darker"
+text = [255, 255, 255]
+text-hovered = [255, 255, 255]
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+text-animation = "pulse"
+text-animation-speed = 2.0
+text-animation-step = 0.6
+text-glow = true
+background-color = [255, 255, 255, 180]
+background-blur = false
+background-blur-strength = 1
+background-shadow = false
+background-shadow-size = 0
+background-shadow-color = [0, 0, 0, 0]

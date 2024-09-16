@@ -1,0 +1,33 @@
+[info]
+name = "Tokyo Ghoul"
+author = "plaNETwide"
+
+[default]
+accent = [150, 0, 0]
+layer-zero = [20, 20, 20]
+layer-one = [40, 40, 40]
+text-foreground = [240, 240, 240]
+text-background = [50, 50, 50]
+
+[panel]
+menu = [20, 20, 20]
+border = [40, 40, 40]
+separator = [40, 40, 40]
+
+[module]
+enabled-background = "default.layer-one::darker"
+
+[button]
+background-hovered = "default.accent::darker;30"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = [150, 0, 0]
+text-animation = "static"
+text-glow = true
+background-color = [20, 20, 20, 150]
+background-shadow = true
+background-shadow-size = 5
+background-shadow-color = [0, 0, 0, 255]

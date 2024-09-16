@@ -1,0 +1,35 @@
+[info]
+name = "Your Name - Dark"
+author = "plaNETwide"
+
+[default]
+accent = [65, 105, 225]
+layer-zero = [20, 24, 82]
+layer-one = [25, 29, 100]
+text-foreground = [245, 245, 245]
+text-background = [169, 169, 169]
+
+[panel]
+menu = "default.layer-zero"
+border = [135, 206, 235, 200]
+separator = [70, 130, 180, 200]
+
+[module]
+enabled-background = "default.layer-one::darker"
+
+[button]
+background = "default.accent"
+background-hovered = "default.accent::darker"
+text = [255, 255, 255]
+text-hovered = "default.text-foreground"
+
+[tooltip]
+background = "default.layer-one::darker"
+
+[hud]
+text-gradient-accent = [255, 105, 180]
+text-animation = "gradient"
+background-color = [0, 0, 139, 150]
+background-blur = true
+background-shadow = true
+background-shadow-color = [25, 25, 112, 255]

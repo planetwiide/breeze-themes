@@ -1,0 +1,32 @@
+[info]
+name = "Owl Dark"
+author = "plaNETwide"
+
+[default]
+accent = [139, 69, 19]  # Saddle Brown
+layer-zero = [34, 34, 34]
+layer-one = [51, 51, 51]
+text-foreground = [255, 255, 255]
+text-background = [150, 150, 150]
+
+[panel]
+menu = [34, 34, 34]
+border = [75, 60, 35]
+separator = [75, 60, 35]
+
+[module]
+enabled-background = "default.layer-one::darker"
+
+[button]
+background-hovered = "default.accent::darker;20"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+background-color = [34, 34, 34, 180]
+background-blur = false
+background-shadow = true
+background-shadow-size = 5
+background-shadow-color = [0, 0, 0, 150]

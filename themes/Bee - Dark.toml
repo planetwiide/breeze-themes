@@ -1,0 +1,32 @@
+[info]
+name = "Bee Dark"
+author = "plaNETwide"
+
+[default]
+accent = [255, 220, 0]  # Bee Yellow
+layer-zero = [30, 30, 30]
+layer-one = [50, 50, 50]
+text-foreground = [255, 255, 255]
+text-background = [80, 80, 80]
+
+[panel]
+menu = [30, 30, 30]
+border = [255, 220, 0]
+separator = [255, 220, 0]
+
+[module]
+enabled-background = "default.layer-one::darker"
+
+[button]
+background-hovered = "default.accent::darker;20"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+background-color = [30, 30, 30, 180]
+background-blur = false
+background-shadow = true
+background-shadow-size = 5
+background-shadow-color = [0, 0, 0, 150]

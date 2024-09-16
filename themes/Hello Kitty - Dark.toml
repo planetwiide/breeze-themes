@@ -1,0 +1,32 @@
+[info]
+name = "Hello Kitty Dark"
+author = "plaNETwide"
+
+[default]
+accent = [255, 105, 180]  # Hot Pink
+layer-zero = [20, 20, 20]
+layer-one = [40, 40, 40]
+text-foreground = [255, 255, 255]
+text-background = [150, 150, 150]
+
+[panel]
+menu = [20, 20, 20]
+border = [255, 105, 180]
+separator = [255, 105, 180]
+
+[module]
+enabled-background = "default.layer-one::darker"
+
+[button]
+background-hovered = "default.accent::darker;20"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+background-color = [20, 20, 20, 180]
+background-blur = false
+background-shadow = true
+background-shadow-size = 5
+background-shadow-color = [0, 0, 0, 150]

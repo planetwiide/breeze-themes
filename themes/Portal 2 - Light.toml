@@ -1,0 +1,37 @@
+[info]
+name = "Portal 2 Light"
+author = "plaNETwide"
+
+[default]
+accent = [0, 153, 255]  # Portal blue
+layer-zero = [255, 255, 255]  # White
+layer-one = [240, 240, 240]  # Light gray
+text-foreground = [0, 0, 0]  # Black
+
+[panel]
+menu = "default.layer-zero"
+border = [0, 153, 255]  # Portal blue
+separator = [200, 200, 200]
+
+[module]
+background = "default.layer-one"
+text = "default.text-foreground"
+text-hovered = "default.text-foreground"
+description = "default.text-foreground"
+description-hovered = "default.text-foreground"
+
+[button]
+background = "default.layer-one"
+background-hovered = "default.accent::darker"
+text = [0, 0, 0]
+text-hovered = "default.text-foreground"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = [0, 153, 255]  # Portal blue
+text-animation = "static"
+text-glow = true
+background-color = [255, 255, 255, 150]
+background-blur = false

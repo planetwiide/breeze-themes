@@ -1,0 +1,43 @@
+[info]
+name = "Mirai Nikki - Dark"
+author = "plaNETwide"
+
+[default]
+accent = [255, 0, 0]
+layer-zero = [15, 15, 15]
+layer-one = [30, 30, 30]
+text-foreground = [255, 255, 255]
+text-background = [128, 0, 0]
+
+[panel]
+menu = "default.layer-zero"
+border = [255, 69, 0]
+separator = [255, 69, 0]
+
+[module]
+enabled-background = "default.layer-one::darker"
+text = "default.text-foreground"
+text-hovered = [255, 255, 255]
+description = "default.text-background"
+
+[button]
+background = "default.accent"
+background-hovered = "default.accent::darker"
+text = [255, 255, 255]
+text-hovered = [255, 255, 255]
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+text-animation = "pulse"
+text-animation-speed = 2.0
+text-animation-step = 0.6
+text-glow = true
+background-color = [0, 0, 0, 180]
+background-blur = true
+background-blur-strength = 3
+background-shadow = true
+background-shadow-size = 5
+background-shadow-color = [0, 0, 0, 255]

@@ -1,0 +1,43 @@
+[info]
+name = "One Piece - Dark"
+author = "plaNETwide"
+
+[default]
+accent = [255, 69, 0] # Red (akin to Luffy's vest)
+layer-zero = [10, 10, 10]
+layer-one = [20, 20, 20]
+text-foreground = [255, 255, 255]
+text-background = [80, 80, 80]
+
+[panel]
+menu = "default.layer-zero"
+border = [255, 69, 0]
+separator = [255, 69, 0]
+
+[module]
+enabled-background = "default.layer-one::darker"
+text = "default.text-foreground"
+text-hovered = [255, 255, 255]
+description = "default.text-background"
+
+[button]
+background = "default.accent"
+background-hovered = "default.accent::darker"
+text = [255, 255, 255]
+text-hovered = [255, 255, 255]
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+text-animation = "pulse"
+text-animation-speed = 1.5
+text-animation-step = 0.5
+text-glow = true
+background-color = [10, 10, 10, 200]
+background-blur = true
+background-blur-strength = 5
+background-shadow = true
+background-shadow-size = 7
+background-shadow-color = [0, 0, 0, 180]

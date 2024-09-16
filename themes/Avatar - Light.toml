@@ -1,0 +1,38 @@
+[info]
+name = "Avatar Light"
+author = "plaNETwide"
+
+[default]
+accent = [0, 255, 255]  # Light Cyan
+layer-zero = [255, 255, 255]  # White
+layer-one = [230, 230, 230]  # Light Gray
+text-foreground = [0, 0, 0]  # Black
+
+[avatar]
+background = "default.layer-zero"
+main-element = "default.layer-one"
+accent-color = "default.accent"
+border-color = "default.accent"
+border-thickness = 3
+
+[panel]
+background = "default.layer-one"
+border = "default.accent"
+border-thickness = 2
+
+[button]
+background = "default.layer-one"
+background-hovered = "default.accent::darker;20"
+text = "default.text-foreground"
+text-hovered = "default.accent"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+background-color = [255, 255, 255, 180]
+background-blur = false
+background-shadow = true
+background-shadow-size = 3
+background-shadow-color = [0, 0, 0, 50]

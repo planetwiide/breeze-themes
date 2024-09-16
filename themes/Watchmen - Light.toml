@@ -1,0 +1,46 @@
+[info]
+name = "Watchmen Light"
+author = "plaNETwide"
+
+[default]
+accent = [0, 84, 159]  # Deep blue
+layer-zero = [245, 245, 245]  # Light gray
+layer-one = [220, 220, 220]  # Slightly darker light gray
+text-foreground = [30, 30, 30]  # Almost black
+text-background = [150, 150, 150]  # Medium gray
+
+[panel]
+menu = "default.layer-zero"
+border = [0, 84, 159]  # Deep blue
+separator = [150, 150, 150]
+
+[module]
+background = "default.layer-one"
+text = "default.text-foreground"
+text-hovered = "default.text-foreground"
+description = "default.text-background"
+description-hovered = "default.text-foreground"
+enabled-background = "default.layer-one::darker"
+
+[button]
+background = "default.layer-one"
+background-hovered = "default.accent::darker"
+text = "default.text-foreground"
+text-hovered = "default.text-background"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = [0, 84, 159]  # Deep blue
+text-animation = "gradient"
+text-animation-speed = 1.0
+text-animation-step = 0.5
+text-gradient-accent = [0, 60, 130]  # Darker blue gradient
+text-glow = true
+background-color = [255, 255, 255, 150]  # Light translucent
+background-blur = true
+background-blur-strength = 6
+background-shadow = true
+background-shadow-size = 6
+background-shadow-color = [0, 0, 0, 100]

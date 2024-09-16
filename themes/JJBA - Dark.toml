@@ -1,0 +1,38 @@
+[info]
+name = "JoJo's Bizarre Adventure - Dark"
+author = "plaNETwide"
+
+[default]
+accent = [238, 130, 238]
+layer-zero = [28, 0, 70]
+layer-one = [50, 0, 100]
+text-foreground = [220, 220, 220]
+text-background = [139, 0, 139]
+
+[panel]
+menu = "default.layer-zero"
+border = [147, 112, 219]
+separator = [123, 104, 238]
+
+[module]
+enabled-background = "default.layer-one::darker"
+text = "default.text-foreground"
+text-hovered = [255, 255, 255]
+description = "default.text-background"
+
+[button]
+background = "default.accent"
+background-hovered = "default.accent::darker"
+text = [255, 255, 255]
+text-hovered = [255, 255, 255]
+
+[tooltip]
+background = "default.layer-one::darker"
+
+[hud]
+text-gradient-accent = [255, 105, 180]
+text-animation = "pulse"
+background-color = [75, 0, 130, 150]
+background-blur = true
+background-shadow = true
+background-shadow-color = [0, 0, 128, 255]

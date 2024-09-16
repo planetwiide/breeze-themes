@@ -1,0 +1,42 @@
+[info]
+name = "Dune Dark"
+author = "plaNETwide"
+
+[default]
+accent = [255, 184, 28]  # Gold
+layer-zero = [15, 15, 15]
+layer-one = [35, 35, 35]
+text-foreground = [255, 255, 255]
+text-background = [85, 85, 85]
+
+[panel]
+menu = [15, 15, 15]
+border = [65, 65, 65]
+separator = [65, 65, 65]
+
+[module]
+enabled-background = "default.layer-one::darker"
+
+[button]
+background = "default.accent"
+background-hovered = "default.accent::darker"
+text = [0, 0, 0]
+text-hovered = [255, 255, 255]
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+text-animation = "pulse"
+text-animation-speed = 2
+text-animation-step = 0.6
+text-rainbow-brightness = 0.6
+text-rainbow-saturation = 0.9
+text-gradient-accent = [255, 184, 28]
+text-glow = true
+background-color = [0, 0, 0, 150]
+background-blur = false
+background-shadow = true
+background-shadow-size = 5
+background-shadow-color = [0, 0, 0, 255]

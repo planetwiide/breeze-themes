@@ -1,0 +1,33 @@
+[info]
+name = "Blade Runner Dark"
+author = "plaNETwide"
+
+[default]
+accent = [0, 255, 255]  # Neon Cyan
+layer-zero = [10, 10, 10]
+layer-one = [30, 30, 30]
+text-foreground = [255, 255, 255]
+text-background = [50, 50, 50]
+
+[panel]
+menu = [10, 10, 10]
+border = [0, 100, 100]
+separator = [0, 100, 100]
+
+[module]
+enabled-background = "default.layer-one::darker"
+
+[button]
+background-hovered = "default.accent::darker;30"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+background-color = [10, 10, 10, 180]
+background-blur = true
+background-blur-strength = 5
+background-shadow = true
+background-shadow-size = 5
+background-shadow-color = [0, 0, 0, 200]

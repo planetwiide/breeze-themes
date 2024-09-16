@@ -1,0 +1,33 @@
+[info]
+name = "Fight Club Dark"
+author = "plaNETwide"
+
+[default]
+accent = [128, 0, 0]  # Dark Red
+layer-zero = [10, 10, 10]
+layer-one = [30, 30, 30]
+text-foreground = [240, 240, 240]
+text-background = [50, 50, 50]
+
+[panel]
+menu = [10, 10, 10]
+border = [80, 0, 0]
+separator = [80, 0, 0]
+
+[module]
+enabled-background = "default.layer-one::darker"
+
+[button]
+background-hovered = "default.accent::darker;30"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+background-color = [10, 10, 10, 180]
+background-blur = true
+background-blur-strength = 5
+background-shadow = true
+background-shadow-size = 5
+background-shadow-color = [0, 0, 0, 200]

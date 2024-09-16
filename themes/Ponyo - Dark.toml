@@ -1,0 +1,33 @@
+[info]
+name = "Ponyo Dark"
+author = "plaNETwide"
+
+[default]
+accent = [255, 72, 72]  # Light red
+layer-zero = [15, 15, 30]
+layer-one = [30, 30, 60]
+text-foreground = [230, 230, 255]
+text-background = [50, 50, 100]
+
+[panel]
+menu = [15, 15, 30]
+border = [30, 30, 60]
+separator = [30, 30, 60]
+
+[module]
+enabled-background = "default.layer-one::darker"
+
+[button]
+background-hovered = "default.accent::darker;30"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = [255, 72, 72]  # Light red
+text-animation = "static"
+text-glow = true
+background-color = [15, 15, 30, 150]
+background-shadow = true
+background-shadow-size = 5
+background-shadow-color = [0, 0, 0, 255]

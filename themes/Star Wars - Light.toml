@@ -1,0 +1,37 @@
+[info]
+name = "Star Wars Light"
+author = "plaNETwide"
+
+[default]
+accent = [255, 204, 0]  # Yellow (lightsaber glow)
+layer-zero = [245, 245, 245]  # Light gray
+layer-one = [220, 220, 220]  # Slightly darker gray
+text-foreground = [0, 0, 0]  # Black
+
+[panel]
+menu = "default.layer-zero"
+border = [255, 204, 0]  # Yellow
+separator = [200, 200, 200]
+
+[module]
+background = "default.layer-one::brighter"
+text = "default.text-foreground"
+text-hovered = "default.text-foreground"
+description = "default.text-background"
+description-hovered = "default.text-foreground"
+
+[button]
+background = "default.layer-one"
+background-hovered = "default.accent::darker"
+text = [255, 255, 255]
+text-hovered = "default.text-background"
+
+[tooltip]
+background = "default.layer-zero"
+
+[hud]
+text-color = [255, 204, 0]
+text-animation = "static"
+text-glow = true
+background-color = [255, 255, 255, 150]
+background-blur = false

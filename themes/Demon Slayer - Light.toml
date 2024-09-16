@@ -1,0 +1,37 @@
+[info]
+name = "Demon Slayer Light"
+author = "plaNETwide"
+
+[default]
+accent = [255, 90, 95]  # Flame red
+layer-zero = [245, 245, 245]  # Light beige
+layer-one = [255, 255, 255]  # White
+text-foreground = [50, 50, 50]  # Dark gray
+
+[panel]
+menu = "default.layer-zero"
+border = [255, 90, 95]  # Flame red
+separator = [240, 240, 240]
+
+[module]
+background = "default.layer-one"
+text = "default.text-foreground"
+text-hovered = "default.text-foreground"
+description = "default.text-foreground"
+description-hovered = "default.text-foreground"
+
+[button]
+background = "default.layer-one"
+background-hovered = "default.accent::darker"
+text = [50, 50, 50]
+text-hovered = "default.text-foreground"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = [255, 90, 95]  # Flame red
+text-animation = "pulse"
+text-glow = true
+background-color = [255, 240, 230, 150]  # Light peach
+background-blur = false

@@ -1,0 +1,43 @@
+[info]
+name = "Hunter x Hunter - Light"
+author = "plaNETwide"
+
+[default]
+accent = [0, 255, 0] # Bright green
+layer-zero = [240, 240, 240] # Light background
+layer-one = [220, 220, 220] # Lighter grey
+text-foreground = [0, 50, 50] # Dark teal
+text-background = [180, 180, 180] # Light grey
+
+[panel]
+menu = "default.layer-zero"
+border = [0, 255, 0]
+separator = [0, 255, 0]
+
+[module]
+enabled-background = "default.layer-one::brighter"
+text = "default.text-foreground"
+text-hovered = [0, 50, 50]
+description = "default.text-background"
+
+[button]
+background = "default.accent"
+background-hovered = "default.accent::darker"
+text = [0, 0, 0]
+text-hovered = [0, 50, 50]
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+text-animation = "pulse"
+text-animation-speed = 2.0
+text-animation-step = 0.6
+text-glow = true
+background-color = [240, 240, 240, 180]
+background-blur = false
+background-blur-strength = 1
+background-shadow = false
+background-shadow-size = 0
+background-shadow-color = [0, 0, 0, 0]

@@ -1,0 +1,38 @@
+[info]
+name = "JoJo's Bizarre Adventure - Light"
+author = "plaNETwide"
+
+[default]
+accent = [255, 182, 193]
+layer-zero = [240, 230, 140]
+layer-one = [255, 222, 173]
+text-foreground = [105, 105, 105]
+text-background = [255, 105, 180]
+
+[panel]
+menu = "default.layer-zero"
+border = [255, 192, 203]
+separator = [255, 160, 122]
+
+[module]
+enabled-background = "default.layer-one::brighter"
+text = "default.text-foreground"
+text-hovered = [255, 20, 147]
+description = "default.text-background"
+
+[button]
+background = "default.accent"
+background-hovered = "default.accent::darker"
+text = [105, 105, 105]
+text-hovered = [255, 20, 147]
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-gradient-accent = [255, 20, 147]
+text-animation = "rainbow"
+background-color = [255, 240, 245, 150]
+background-blur = false
+background-shadow = true
+background-shadow-color = [255, 182, 193, 255]

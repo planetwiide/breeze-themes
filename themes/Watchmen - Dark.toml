@@ -1,0 +1,47 @@
+[info]
+name = "Watchmen Dark"
+author = "plaNETwide"
+
+[default]
+accent = [0, 84, 159]  # Deep blue
+layer-zero = [0, 0, 0]  # Black
+layer-one = [20, 20, 20]  # Very dark gray
+text-foreground = [255, 255, 255]  # White
+text-background = [50, 50, 50]  # Dark gray
+
+[panel]
+menu = "default.layer-zero"
+border = [0, 84, 159]  # Deep blue
+separator = [20, 20, 20]
+
+[module]
+background = "default.layer-one"
+text = "default.text-foreground"
+text-hovered = "default.text-foreground"
+description = "default.text-background"
+description-hovered = "default.text-foreground"
+enabled-background = "default.layer-one::darker"
+
+[button]
+background = "default.layer-one"
+background-hovered = "default.accent::darker"
+text = "default.text-foreground"
+text-hovered = "default.text-background"
+
+[tooltip]
+background = "default.layer-zero"
+
+[hud]
+text-color = [0, 84, 159]  # Deep blue
+text-animation = "pulse"
+text-animation-speed = 1.0
+text-animation-step = 0.6
+text-rainbow-brightness = 0.4
+text-rainbow-saturation = 0.7
+text-glow = true
+background-color = [0, 0, 0, 180]  # Black translucent
+background-blur = true
+background-blur-strength = 8
+background-shadow = true
+background-shadow-size = 8
+background-shadow-color = [0, 0, 0, 200]

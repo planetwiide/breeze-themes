@@ -1,0 +1,32 @@
+[info]
+name = "Hello Kitty Light"
+author = "plaNETwide"
+
+[default]
+accent = [255, 105, 180]  # Hot Pink
+layer-zero = [255, 255, 255]
+layer-one = [240, 240, 240]
+text-foreground = [20, 20, 20]
+text-background = [100, 100, 100]
+
+[panel]
+menu = [255, 255, 255]
+border = [255, 105, 180]
+separator = [255, 105, 180]
+
+[module]
+enabled-background = "default.layer-one::brighter"
+
+[button]
+background-hovered = "default.accent::darker;10"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+background-color = [255, 255, 255, 180]
+background-blur = false
+background-shadow = true
+background-shadow-size = 3
+background-shadow-color = [0, 0, 0, 100]
