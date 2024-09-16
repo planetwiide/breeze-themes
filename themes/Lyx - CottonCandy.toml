@@ -1,0 +1,45 @@
+# Purplium Rebrand - CottonCandy
+# credits to  bhop4real
+
+[info]
+name = "CottonCandy"
+author = "Smash"
+
+[default]
+accent = [128, 0, 128]
+layer-zero = [15, 15, 35, 70]
+layer-one = [30, 30, 50, 70]
+corner-radius = 20
+
+[boolean]
+circle = [255, 255, 255]
+
+[panel]
+blur = true
+menu = "default.layer-zero"
+border = [100, 149, 237]
+separator = "default.accent"
+
+[tab]
+corner-radius = 12
+
+[module]
+enabled-background = "default.layer-one::darker::alpha;0"
+
+[search]
+border-thickness = 3
+
+[slider]
+textbox-thickness = 3
+circle = [255, 255, 255, 255]
+
+[button]
+background-hovered = "default.accent::darker;20"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-gradient-accent = [100,149,237]
+background-blur = true
+text-glow = true

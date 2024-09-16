@@ -1,0 +1,24 @@
+# Purplium Rebrand - CottonCandy
+# credits to  bhop4real
+
+[info]
+name = "banana"
+author = "Smash"
+
+[panel]
+blur = true
+
+[default]
+accent = [204, 117, 198]
+layer-zero = [100, 100, 100, 140]
+layer-one = [40, 40, 40, 140]
+
+[hud]
+enabled-background = "default.layer-one::darker::alpha;100"
+text-animation = "gradient"
+text-gradient-accent = [207, 193, 114]
+background-blur = true
+background-shadow = true
+text-glow = true
+background-blur-strength = 1
+background-shadow-color = [20, 20, 20]
