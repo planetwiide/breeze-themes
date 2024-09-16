@@ -1,0 +1,22 @@
+
+[info]
+name = "Mint"
+author = "Smash"
+
+[panel]
+blur = true
+
+[default]
+accent = [28, 183, 227]
+layer-zero = [100, 100, 100, 140]
+layer-one = [40, 40, 40, 140]
+
+[hud]
+enabled-background = "default.layer-one::darker::alpha;100"
+background-blur = true
+text-animation = "gradient"
+text-gradient-accent = [255, 255, 255]
+background-shadow = true
+text-glow = true
+background-blur-strength = 1
+background-shadow-color = [20, 20, 20]

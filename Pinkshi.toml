@@ -1,0 +1,29 @@
+
+[info]
+name = "Pinkshi"
+author = "Smash"
+
+[panel]
+blur = true
+border = [37, 37, 37]
+separator = [37, 37, 37]
+
+[search]
+border-thickness = 1
+
+[default]
+accent = [255, 79, 255]
+layer-zero = [100, 100, 100, 140]
+layer-one = [40, 40, 40, 140]
+
+
+
+[hud]
+enabled-background = "default.layer-one::darker::alpha;100"
+background-blur = true
+text-animation = "gradient"
+text-gradient-accent = [255, 255, 255]
+background-shadow = true
+text-glow = true
+background-blur-strength = 3
+background-shadow-color = [20, 20, 20]
