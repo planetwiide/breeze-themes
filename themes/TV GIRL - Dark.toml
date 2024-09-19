@@ -1,0 +1,32 @@
+[info]
+name = "TV Girl Dark"
+author = "plaNETwide"
+
+[default]
+accent = [239, 41, 139]  # Pink (#ef298b)
+layer-zero = [32, 61, 151]  # Deep Blue (#203d97)
+layer-one = [24, 46, 114]
+text-foreground = [255, 255, 255]  # White
+text-background = [180, 180, 180]
+
+[panel]
+menu = "default.layer-zero"
+border = [239, 41, 139]
+separator = "default.layer-one"
+
+[module]
+enabled-background = "default.layer-one::brighter"
+
+[button]
+background-hovered = "default.accent::darker;20"
+
+[tooltip]
+background = "default.layer-one"
+
+[hud]
+text-color = "default.accent"
+background-color = [32, 61, 151, 180]
+background-blur = true
+background-shadow = true
+background-shadow-size = 4
+background-shadow-color = [0, 0, 0, 120]
